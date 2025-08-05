@@ -8,7 +8,7 @@ class StandbyButton:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "STANDBY": ("BOOLEAN", {"default": False}),
+                "standby": ("BOOLEAN", {"default": False}),
             }
         }
 
@@ -17,8 +17,8 @@ class StandbyButton:
     OUTPUT_NODE = True
     CATEGORY = "System"
 
-    def standby_now(self, confirm=False):
-        if not confirm:
+    def standby_now(self, standby=False):
+        if not standby:
             print("Standby nicht bestätigt.")
             return ()
 
