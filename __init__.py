@@ -3,12 +3,12 @@ import platform
 import subprocess
 import os
 
-class StandbyImageButton:
+class StandbyButton:
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "confirm": ("BOOLEAN", {"default": False}),
+                "STANDBY": ("BOOLEAN", {"default": False}),
             }
         }
 
@@ -48,9 +48,9 @@ class StandbyImageButton:
             return {}
 
 NODE_CLASS_MAPPINGS = {
-    "StandbyImageButton": StandbyImageButton
+    "StandbyButton": StandbyButton
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "StandbyImageButton": "🖼️ Standby mit Bild"
+    "StandbyButton": " Standbybutton ⏾ ⇐ press"
 }
