@@ -1,0 +1,54 @@
+{
+  "id": "c9af98bb-52a9-4218-b8ae-fc6d6f50b354",
+  "revision": 0,
+  "last_node_id": 2,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "StandbyButton",
+      "pos": [
+        865.0116577148438,
+        423.82342529296875
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "aux_id": "majocola/comfyui-standbybutton",
+        "ver": "4dde46c33448218e95cd1fcf9b694e0488fb14ed",
+        "Node name for S&R": "StandbyButton",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        true
+      ]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "ds": {
+      "scale": 1.8461690958333368,
+      "offset": [
+        -638.833305468932,
+        -260.66963618328157
+      ]
+    },
+    "links_added_by_ue": [],
+    "frontendVersion": "1.23.4",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
